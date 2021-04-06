@@ -1,0 +1,21 @@
+/* вариант на flex */
+
+.flex_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1590px;
+    margin-right: -30px;
+}
+
+.flex__img {
+    width: 500px;
+    margin: 0 30px 30px 0;
+}
+
+.flex__img_wide {
+    width: 1030px;
+    margin: 0 30px 30px 0;
+}
+
+
+/* вариант на grid */
