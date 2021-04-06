@@ -19,3 +19,20 @@
 
 
 /* вариант на grid */
+
+.gird_wrapper {
+    width: 1560px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 30px;
+    grid-template-areas: "one one ." ". . ." ". nine nine";
+}
+
+.grid__wide_one {
+    grid-area: one;
+}
+
+.grid__wide_nine {
+    grid-area: nine;
+}
